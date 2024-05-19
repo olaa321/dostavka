@@ -5,6 +5,7 @@
 }
 
 .pizza{
+    margin-top: 30px;
     display: flex;
     width: 101px;
     height: 78px;
@@ -18,6 +19,7 @@
 }
 
 .deserti{
+    margin-top: 35px;
     display: flex;
     width: 110px;
     height: 70px;
@@ -27,4 +29,10 @@
     display: flex;
     width: 35px;
     height: 32px;
+}
+
+.soed4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
