@@ -1,24 +1,30 @@
 .bergeri{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 124px;
+    height: 80px;
 }
 
 .pizza{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 101px;
+    height: 78px;
     
 }
 
 .Napitki{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 71px;
+    height: 79px;
 }
 
 .deserti{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 70px;
+}
+
+.teleph{
+    display: flex;
+    width: 35px;
+    height: 32px;
 }
