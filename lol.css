@@ -1,0 +1,24 @@
+.bergeri{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.pizza{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.Napitki{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.deserti{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
