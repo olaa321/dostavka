@@ -16,6 +16,7 @@ body {
     color: #8f1e1e;
     padding-top: 15px;
   }
+
 div a {
   text-decoration: none;
   color: #a14848;
@@ -30,7 +31,23 @@ div a {
 }
 
 header {
-  border-radius: 0 0 30% 30%;
-  border: 5px solid #c05252;
-  border-top: none;
+    border-radius: 0 0 30% 30%;
+    border: 5px solid #c05252;
+    border-top: none;
+    background-color: #fcfdcc;
+    padding: 40px;
+  }
+
+  .textdost{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    color: #8f1e1e;
+  }
+
+.teleph{
+    display: flex;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 1000px;
 }
