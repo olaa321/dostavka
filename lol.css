@@ -4,16 +4,18 @@ body {
 }
 
 .card {
-  border: 15px solid #c05252;
-  width: 330px;
-  height: 323px;
-  border-radius: 25px;
-  margin: 35px;
-  display: 0;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+    border: 15px solid #c05252;
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    margin: 32px;
+    display: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #8f1e1e;
+    padding-top: 15px;
+  }
 div a {
   text-decoration: none;
   color: #a14848;
