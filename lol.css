@@ -29,10 +29,32 @@
     display: flex;
     width: 35px;
     height: 32px;
+    margin-top: 100px;
+    margin-left: 200px;
 }
 
 .soed4{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.Tber{
+    color: #A14848;
+}
+
+.Tnapit{
+    color: #A14848;
+}
+
+.Tpizza{
+    color: #A14848;
+}
+
+.Tdeser{
+    color: #A14848;
+}
+
+.textdost{
+    color: #A14848;
 }
