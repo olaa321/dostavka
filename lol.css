@@ -8,15 +8,18 @@ body {
 
 .card {
   border: 15px solid #c05252;
-  width: 330px;
-  height: 303px;
-  border-radius: 25px;
-  margin: 35px;
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  margin: 32px;
   display: 0;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: #8f1e1e;
+  padding-top: 15px;
 }
+
 div a {
   text-decoration: none;
   color: #a14848;
@@ -43,4 +46,11 @@ header {
   text-align: center;
   margin: 0;
   color: #8f1e1e;
+}
+
+.teleph {
+  display: flex;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 1000px;
 }
