@@ -38,7 +38,7 @@ header {
   border: 5px solid #c05252;
   border-top: none;
   background-color: #fcfdcc;
-  padding: 40px;
+  padding: 25px;
 }
 
 .textdost {
@@ -59,7 +59,14 @@ header {
   position: fixed;
   bottom: 40px;
   right: 120px;
+  height: 90px;
+  width: 90px;
 }
 
-footer {
+footer{
+  border-radius: 30% 30% 0 0;
+  border: 5px solid #c05252;
+  border-bottom: none;
+  background-color: #fcfdcc;
+  padding: 50px;
 }
