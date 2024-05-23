@@ -54,3 +54,12 @@ header {
   margin-top: 50px;
   margin-left: 1000px;
 }
+
+.call {
+  position: fixed;
+  bottom: 40px;
+  right: 120px;
+}
+
+footer {
+}
