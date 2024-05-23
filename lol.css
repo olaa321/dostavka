@@ -85,6 +85,11 @@ main {
   position: absolute;
   top: -103px;
   left: 36px;
+  transition: all 0.4 linear;
+  -webkit-text-stroke: 1px #aa4d0f;
+}
+.call:hover .call-text {
+  text-shadow: 0px 0px 20px #aa4d0f;
 }
 
 .call-img {
@@ -93,7 +98,7 @@ main {
   transform: rotate(-80deg);
 }
 .call-img:hover {
-  transform: rotate(-50deg) scale(1.052);
+  animation: call 0.5s linear;
 }
 
 footer {
@@ -106,4 +111,22 @@ footer {
   border-bottom: none;
   background-color: #fcfdcc;
   padding: 30px;
+}
+
+@keyframes call {
+  0% {
+    transform: rotate(-80deg) scale(1.012);
+  }
+  30% {
+    transform: rotate(-70deg) scale(1.032);
+  }
+  50% {
+    transform: rotate(-60deg) scale(1.062);
+  }
+  70% {
+    transform: rotate(-70deg) scale(1.032);
+  }
+  100% {
+    transform: rotate(-80deg) scale(1.062);
+  }
 }
