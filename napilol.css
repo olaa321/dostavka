@@ -57,3 +57,26 @@ margin: 0;
     margin-top: -15px;
     height: 250px;
   }
+
+  .teleph {
+    display: flex;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 1000px;
+  }
+  
+  .call {
+    position: fixed;
+    bottom: 40px;
+    right: 120px;
+    height: 90px;
+    width: 90px;
+  }
+  
+  footer{
+    border-radius: 30% 30% 0 0;
+    border: 5px solid #c05252;
+    border-bottom: none;
+    background-color: #fcfdcc;
+    padding: 50px;
+  }
