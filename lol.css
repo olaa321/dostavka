@@ -4,6 +4,9 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
   font-weight: 600;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Cards style */
 .card {
@@ -127,6 +130,6 @@ footer {
     transform: rotate(-70deg) scale(1.032);
   }
   100% {
-    transform: rotate(-80deg) scale(1.062);
+    transform: rotate(-80deg) scale(1.012);
   }
 }

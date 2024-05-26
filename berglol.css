@@ -77,6 +77,18 @@ main {
   margin-top: 50px;
   margin-left: 1000px;
 }
+/* Button_back */
+.Button_back {
+  top: 87px;
+  left: 4px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+}
+.Button_back:hover {
+  box-shadow: 0px 0px 50px 15px #c87842;
+}
 /* Call style */
 .call {
   display: flex;
@@ -138,6 +150,10 @@ footer {
     transform: rotate(-70deg) scale(1.032);
   }
   100% {
+<<<<<<< HEAD
     transform: rotate(-80deg) scale(1.062);
+=======
+    transform: rotate(-80deg) scale(1.012);
+>>>>>>> 766e8c6068a7f6d03c7b3bf9dc2512532f757d6c
   }
 }
