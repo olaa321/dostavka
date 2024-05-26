@@ -13,7 +13,7 @@ function toggleModal() {
 for (let i = 0; i < modalBtnOpen.length; i += 1) {
     modalBtnOpen[i].addEventListener('click', function() {
         const imgSrc = this.querySelector('.card-img').src;
-        const cardtext = this.querySelector('.card-text').value
+        const cardtext = this.querySelector('.card-text').innerHTML
         modalImg.src = imgSrc;
         modalText.innerHTML = cardtext;
         toggleModal();
