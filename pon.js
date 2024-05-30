@@ -22,12 +22,3 @@ for (let i = 0; i < modalBtnOpen.length; i += 1) {
 
 // Додаємо подію для кнопки закриття модального вікна
 modalBtnClose.addEventListener('click', toggleModal);
-    
-    
-
-
-// chiken_burger.addEventListener("click", function () {
-//     let toggleModal = () => modal.classList.toggle('is-hidden');
-   
-
-// })
