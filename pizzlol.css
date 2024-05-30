@@ -6,6 +6,17 @@ body {
   font-weight: 600;
 }
 /* Cards style */
+
+.strela{
+  margin-left: 35px;
+  margin-top: -880px;
+  display: flex;
+  padding: 0px;
+  height: 76px;
+  width: 90px;
+  justify-content: center;
+}
+
 .card {
   border: 15px solid #c05252;
   width: 280px;
@@ -111,17 +122,6 @@ main {
 }
 .call-img:hover {
   animation: call 0.5s linear;
-
-}
-
-.strela{
-  margin-left: 35px;
-  margin-top: -880px;
-  display: flex;
-  padding: 0px;
-  height: 76px;
-  width: 90px;
-  justify-content: center;
 }
 
 footer {
@@ -150,12 +150,19 @@ footer {
     transform: rotate(-70deg) scale(1.032);
   }
   100% {
+
     transform: rotate(-80deg) scale(1.062);
+
     transform: rotate(-80deg) scale(1.012);
+
   }
 }
 
-/* Modal  */
+
+.modal-img {
+  margin-left: 20px;
+  width: 300px;
+}
 
 .backdrop {
   position: fixed;
@@ -178,27 +185,26 @@ footer {
 }
 
 .modal {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
   font-size: 50;
   max-width: 880px;
   width: 80%;
   height: 90%;
   max-height: 880px;
-  background-color: #f5f3ff;
+  background-color: white;
+  border: 7px solid #c05252;
   border-radius: 20px;
   position: absolute;
 }
 
 .modal-bth-close {
+  position: absolute;
+  left: 340px;
+  bottom: -30px;
   width: 200px;
   height: 80px;
-  margin-top: 10px;
   border-radius: 20px;
-  color: white;
-  background-color: black;
+  color: rgb(255, 255, 255);
+  background-color: rgb(186, 90, 90);
   font-size: 30px;
 }
 
@@ -208,4 +214,36 @@ footer {
   padding-left: 20px;
   padding-right: 10px;
   border-radius: 10px;
+}
+
+form{
+  display: flex;
+  justify-content: space-around;
+}
+
+.kart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textmdl{
+  color: #8f1e1e;
+  font-size: 20px;
+  font-style: bold;
+}
+
+input{
+  padding: 15px;
+  border: 2px solid #8f1e1e;
+  background-color: #f3dba8;
+  border-radius: 15px;
+}
+
+.koll, .adress{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
