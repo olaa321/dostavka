@@ -16,10 +16,10 @@
         <a href="index.html"><img src="img/Button_back2.png" class="Button_back"></a>
             <div class="first-block">
                 <div class="card modal-bth-open">
-                    <img class="mojita" src="img/mojito.jpg" class="card-img"><br><p class="card-text">Мохито</p>
+                    <img src="img/mojito.jpg" class="card-img"><br><p class="card-text">Мохито</p>
                 </div>
                 <div class="card modal-bth-open">
-                    <img class="voda" src="img/water.jpg" class="card-img"><br><p class="card-text">Вода</p>
+                    <img src="img/water.jpg" class="card-img"><br><p class="card-text">Вода</p>
                 </div>
             </div>
                <div class="second-block">
@@ -40,9 +40,23 @@
     <a href="tel: +380631345461" class="call"><p class="call-text">Замовити дзвінок</p><img src="img/call-img2.svg" width="150px" class="call-img"></a>
 <div class="backdrop is-hidden">
     <div class="modal">
-        <img src="" class="modal-img">
-        <p class="modal-text"></p>
-        <button class="modal-bth-close">Start</button>
+        <div class="kart">
+            <img src="" class="modal-img">
+            <p class="modal-text textmdl"></p>
+        </div>
+        <form>
+            <div class="koll">
+                <p class="choose textmdl">Оберіть кількість:</p>
+                <input type="number" class="number">
+            </div>
+            <div class="adress">
+                <p class="address textmdl">Вкажіть вашу адресу:</p>
+                <input type="text" class="address-field">
+            </div>
+        </form>
+        
+        <button class="modal-bth-close">Замовити</button>
+        
     </div>
     
 </body>
