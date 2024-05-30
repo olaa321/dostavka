@@ -1,15 +1,24 @@
-
-const modal2 = document.querySelector('.backdrop');
-const modalBtnOpen2 = document.querySelector('.modal-bth-open');
-
+const modal = document.querySelector('.backdrop');
+const modalBtnOpen = document.querySelectorAll('.modal-bth-open');
 const modalBtnClose = document.querySelector('.modal-bth-close');
+const modalImg = document.querySelector('.modal-img');
+const modalText = document.querySelector('.modal-text')
 
-const toggleModal = () => modal.classList.toggle('is-hidden');
+// Функція для перемикання класу 'is-hidden'
+function toggleModal() {
+    modal.classList.toggle('is-hidden');
+}
 
-modalBtnOpen.addEventListener('click', toggleModal);
+// Додаємо події для всіх кнопок відкриття модального вікна
+for (let i = 0; i < modalBtnOpen.length; i += 1) {
+    modalBtnOpen[i].addEventListener('click', function() {
+        const imgSrc = this.querySelector('.card-img').src;
+        const cardtext = this.querySelector('.card-text').innerHTML
+        modalImg.src = imgSrc;
+        modalText.innerHTML = cardtext;
+        toggleModal();
+    });
+}
+
+// Додаємо подію для кнопки закриття модального вікна
 modalBtnClose.addEventListener('click', toggleModal);
-// chiken_burger.addEventListener("click", function () {
-//     let toggleModal = () => modal.classList.toggle('is-hidden');
-   
-
-// })
