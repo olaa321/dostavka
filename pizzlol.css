@@ -111,7 +111,7 @@ main {
 }
 .call-img:hover {
   animation: call 0.5s linear;
-<<<<<<< HEAD
+
 }
 
 .strela{
@@ -122,8 +122,6 @@ main {
   height: 76px;
   width: 90px;
   justify-content: center;
-=======
->>>>>>> 766e8c6068a7f6d03c7b3bf9dc2512532f757d6c
 }
 
 footer {
@@ -152,10 +150,7 @@ footer {
     transform: rotate(-70deg) scale(1.032);
   }
   100% {
-<<<<<<< HEAD
     transform: rotate(-80deg) scale(1.062);
-=======
     transform: rotate(-80deg) scale(1.012);
->>>>>>> 766e8c6068a7f6d03c7b3bf9dc2512532f757d6c
   }
 }
