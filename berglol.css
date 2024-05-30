@@ -7,7 +7,7 @@ body {
 }
 /* Cards style */
 
-.strela{
+.strela {
   margin-left: 35px;
   margin-top: -880px;
   display: flex;
@@ -150,14 +150,11 @@ footer {
     transform: rotate(-70deg) scale(1.032);
   }
   100% {
-
     transform: rotate(-80deg) scale(1.062);
 
     transform: rotate(-80deg) scale(1.012);
-
   }
 }
-
 
 .modal-img {
   margin-left: 20px;
@@ -199,7 +196,6 @@ footer {
 }
 
 .modal {
-  display: flex;
   justify-content: space-around;
   font-size: 50;
   max-width: 880px;
@@ -232,32 +228,33 @@ footer {
   border-radius: 10px;
 }
 
-form{
+form {
   display: flex;
   justify-content: space-around;
 }
 
-.kart{
+.kart {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.textmdl{
+.textmdl {
   color: #8f1e1e;
   font-size: 20px;
   font-style: bold;
 }
 
-input{
+input {
   padding: 15px;
   border: 2px solid #8f1e1e;
   background-color: #f3dba8;
   border-radius: 15px;
 }
 
-.koll, .adress{
+.koll,
+.adres {
   display: flex;
   justify-content: center;
   align-items: center;
