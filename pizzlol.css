@@ -248,3 +248,8 @@ input{
   align-items: center;
   flex-direction: column;
 }
+
+.modal-bth-close:hover {
+  transform: scale(1.050);
+  box-shadow: 0 0 5px 5px #953737;
+}
