@@ -30,6 +30,7 @@ body {
   color: #8f1e1e;
   padding-top: 15px;
   transition: all 0.3s linear;
+  cursor: pointer;
 }
 .card:hover {
   transform: scale(1.052);
