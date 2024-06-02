@@ -1,6 +1,6 @@
 const modal = document.querySelector('.backdrop');
 const modalBtnOpen = document.querySelectorAll('.modal-bth-open');
-const modalBtnClose = document.querySelector('.modal-bth-close');
+const modalBtnClose = document.querySelectorAll('.modal-bth-close');
 const modalImg = document.querySelector('.modal-img');
 const modalText = document.querySelector('.modal-text')
 
@@ -21,5 +21,8 @@ for (let i = 0; i < modalBtnOpen.length; i += 1) {
     });
 }
 
+for (let i = 0; i < modalBtnClose.length; i += 1){
+    modalBtnClose[i].addEventListener('click', toggleModal);
+}
+
 // Додаємо подію для кнопки закриття модального вікна
-modalBtnClose.addEventListener('click', toggleModal);

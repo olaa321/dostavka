@@ -7,7 +7,7 @@ body {
 }
 /* Cards style */
 
-.strela{
+.strela {
   margin-left: 35px;
   margin-top: -880px;
   display: flex;
@@ -150,21 +150,22 @@ footer {
     transform: rotate(-70deg) scale(1.032);
   }
   100% {
-
     transform: rotate(-80deg) scale(1.062);
 
     transform: rotate(-80deg) scale(1.012);
-
   }
 }
 
-.morojo{
+.morojo {
   height: 150px;
 }
 
 .modal-img {
   margin-left: 20px;
-  width: 300px;
+  max-width: 300px;
+  max-height: 350px;
+  height: 100%;
+  width: 100%;
 }
 
 .backdrop {
@@ -199,7 +200,7 @@ footer {
   position: absolute;
 }
 
-.modal-bth-close {
+.order {
   position: absolute;
   left: 340px;
   bottom: -30px;
@@ -209,6 +210,7 @@ footer {
   color: rgb(255, 255, 255);
   background-color: rgb(186, 90, 90);
   font-size: 30px;
+  cursor: pointer;
 }
 
 .modal-btn-open {
@@ -219,34 +221,44 @@ footer {
   border-radius: 10px;
 }
 
-form{
+form {
   display: flex;
   justify-content: space-around;
 }
 
-.kart{
+.kart {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.textmdl{
+.textmdl {
   color: #8f1e1e;
   font-size: 20px;
   font-style: bold;
 }
 
-input{
+input {
   padding: 15px;
   border: 2px solid #8f1e1e;
   background-color: #f3dba8;
   border-radius: 15px;
 }
 
-.koll, .adress{
+.koll,
+.adres {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.cansel {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
 }
