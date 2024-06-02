@@ -17,6 +17,10 @@ body {
   justify-content: center;
 }
 
+.water{
+  height: 230px;
+}
+
 .card {
   border: 15px solid #c05252;
   width: 280px;
