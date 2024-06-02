@@ -7,7 +7,7 @@ body {
 }
 /* Cards style */
 
-.strela{
+.strela {
   margin-left: 35px;
   margin-top: -880px;
   display: flex;
@@ -16,8 +16,6 @@ body {
   width: 90px;
   justify-content: center;
 }
-
-
 
 .card {
   border: 15px solid #c05252;
@@ -153,15 +151,13 @@ footer {
     transform: rotate(-70deg) scale(1.032);
   }
   100% {
-
     transform: rotate(-80deg) scale(1.062);
 
     transform: rotate(-80deg) scale(1.012);
-
   }
 }
 
-.witer{
+.witer {
   height: 230px;
 }
 
@@ -169,8 +165,8 @@ footer {
   margin-left: 20px;
   width: 100%;
   height: 100%;
-  max-width: 250px;
-  max-height: 300px;
+  max-width: 300px;
+  max-height: 330px;
 }
 
 .backdrop {
@@ -205,7 +201,7 @@ footer {
   position: absolute;
 }
 
-.modal-bth-close {
+.order {
   position: absolute;
   left: 340px;
   bottom: -30px;
@@ -215,6 +211,7 @@ footer {
   color: rgb(255, 255, 255);
   background-color: rgb(186, 90, 90);
   font-size: 30px;
+  cursor: pointer;
 }
 
 .modal-btn-open {
@@ -225,35 +222,47 @@ footer {
   border-radius: 10px;
 }
 
-form{
+form {
   display: flex;
   justify-content: space-around;
 }
 
-.kart{
+.kart {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.textmdl{
+.textmdl {
   color: #8f1e1e;
   font-size: 20px;
   font-style: bold;
 }
 
-input{
+input {
   padding: 15px;
   border: 2px solid #8f1e1e;
   background-color: #f3dba8;
   border-radius: 15px;
 }
 
-.koll, .adress{
+.koll,
+.adres {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
+<<<<<<< HEAD
+=======
+.cansel {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+>>>>>>> 1b65bcf234bc8991220bd8babcc9538860be0809
