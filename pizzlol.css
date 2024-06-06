@@ -159,7 +159,8 @@ footer {
 
 .modal-img {
   margin-left: 20px;
-  width: 300px;
+  width: 350px;
+  height: 320px;
 }
 
 .backdrop {
@@ -260,6 +261,7 @@ input {
 
 .order:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 5px 5px #953737;
-  background-color: rgb(163, 51, 51);
+  transform: rotate(4deg);
+  box-shadow: 0 0 5px 5px #379548;
+  background-color: rgb(101, 210, 112);
 }
