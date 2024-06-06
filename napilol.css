@@ -32,7 +32,7 @@ body {
   transition: all 0.3s linear;
   cursor: pointer;
 }
-.card:btn-closeer {
+.card:hover {
   transform: scale(1.052);
   box-shadow: 0 10px 10px 10px #8f1e1e;
 }

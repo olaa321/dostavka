@@ -21,8 +21,9 @@ for (let i = 0; i < modalBtnOpen.length; i += 1) {
     });
 }
 
+// Додаємо подію для кнопки закриття модального вікна
 for (let i = 0; i < modalBtnClose.length; i += 1){
     modalBtnClose[i].addEventListener('click', toggleModal);
 }
 
-// Додаємо подію для кнопки закриття модального вікна
+
